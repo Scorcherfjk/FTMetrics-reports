@@ -1,0 +1,58 @@
+http://w2k12xpoc/ReportServer/Pages/ReportViewer.aspx?/ReportExpert/Dashboard&rs:ClearSession=true&rc:Parameters=false&rc:Toolbar=true&rc:LinkTarget=frameContent&RptParameterSetId=11&RptParameterSet=11|3|-1|0|101|1|true|-2|1|100|1|true|-3|2|8|0|true|0|0|1|-1|1|false|2015-03-01%200:00:00|2015-03-09%200:00:00||||0|--%20All%20--|false|0|0|1|tn:Default|
+
+http://w2k12xpoc/ReportServer/Pages/ReportViewer.aspx?/ReportExpert/Dashboard&rs:ClearSession=true&rc:Parameters=false&rc:Toolbar=true&rc:LinkTarget=frameContent&RptParameterSetId=11&RptParameterSet=11%7C3%7C-1%7C0%7C101%7C1%7Ctrue%7C-2%7C1%7C100%7C1%7Ctrue%7C-3%7C2%7C8%7C0%7Ctrue%7C0%7C0%7C1%7C-1%7C1%7Cfalse%7C2015-03-01%200:00:00%7C2015-03-09%200:00:00%7C%7C%7C%7C0%7C--%20All%20--%7Cfalse%7C0%7C0%7C1%7Ctn:Default%7C
+
+
+
+
+
+
+%7C  =>  "|"
+%20 =>   " "
+
+
+http://w2k12xpoc/ReportServer/Pages/ReportViewer.aspx?/ReportExpert/Dashboard&rs:ClearSession=true&rc:Parameters=false&rc:Toolbar=true&rc:LinkTarget=frameContent&RptParameterSetId=11&RptReportId=19
+
+http://w2k12xpoc/
+ReportServer/
+Pages/ReportViewer.aspx?/
+ReportExpert/
+Dashboard&rs:
+ClearSession=true&rc:
+Parameters=false&rc:
+Toolbar=true&rc:
+LinkTarget=frameContent&RptParameterSetId=11&RptParameterSet=11 %7C
+3 %7C                       PS_db_id
+-1 %7C                      grouping_count
+0 %7C                       group_order
+101 %7C                     groupBy
+1 %7C                       group_type
+true %7C                    start_collapse
+-2 %7C                      sorting_count
+1 %7C                       sort_order
+100 %7C                     orderBy
+1 %7C
+true %7C                    is_ascending
+-3 %7C                      pmu_filter_count
+2 %7C                       FDMAA_id
+8 %7C                       time_filter_count
+0 %7C                       timeType
+true %7C                    use_production_day
+0 %7C                       
+0 %7C
+1 %7C
+-1 %7C
+1 %7C
+false %7C
+2015-03-01 %20 0:00:00 %7C
+2015-03-09 %20 0:00:00 %7C
+%7C
+%7C
+%7C
+0 %7C
+-- %20 All %20 -- %7C
+false %7C
+0 %7C
+0 %7C
+1 %7C
+tn:Default %7C
