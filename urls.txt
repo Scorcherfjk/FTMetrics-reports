@@ -56,3 +56,32 @@ false %7C
 0 %7C
 1 %7C
 tn:Default %7C
+
+
+
+http://pe01sp07a/ReportServer/Pages/ReportViewer.aspx?/ReportExpert/GY_Entubadora_Operacion&rs:ClearSession=true&rc:Parameters=false&rc:Toolbar=true&rc:LinkTarget=frameContent&RptParameterSetId=263&RptParameterSet=263%7C3%7C-1%7C0%7C101%7C1%7Ctrue%7C-2%7C1%7C104
+
+%7C1%7Ctrue%7C-3%7C2%7C8%7C0%7Ctrue%7C1%7C-1
+
+%7C0%7C34%7Cfalse%7C1%7C-1%7C1000032%7C1%7C-1%7C1%7Cfalse%7C2018-07-01%200:00:00%7C2018-07-03%200:00:00%7C%7C%7C%7C0%7C--%20All%20--%7Cfalse%7C1%7C-1%7C102%7C0%7C-1%7C0%7C0%7C1%7Ctn:Default%7C
+
+http://pe01sp07a/ReportServer/Pages/ReportViewer.aspx?/ReportExpert/GY_Entubadora_Operacion&rs:ClearSession=true&rc:Parameters=false&rc:Toolbar=true&rc:LinkTarget=frameContent&RptParameterSetId=263&RptParameterSet=263%7C3%7C-1%7C0%7C101%7C1%7Ctrue%7C-2%7C1%7C100
+
+%7C1%7Ctrue%7C-3%7C2%7C8%7C0%7Ctrue%7C0%7C0
+
+%7C1%7C-1%7C1%7Cfalse%7C2018-07-01%2000:00:00%7C2018-07-03%2000:00:00%7C%7C%7C%7C0%7C--%20All%20--%7Cfalse%7C0%7C0%7C1%7Ctn:Default%7C
+
+
+
+http://pe01sp07a/ReportServer/Pages/ReportViewer.aspx?/ReportExpert/GY_Entubadora_Calidad&rs:ClearSession=true&rc:Parameters=false&rc:Toolbar=true&rc:LinkTarget=frameContent&RptParameterSetId=263&RptParameterSet=263%7C3%7C-1%7C0%7C101%7C1%7Ctrue%7C-2%7C1%7C104
+
+%7C1%7Ctrue%7C-3%7C2%7C8%7C0%7Ctrue%7C1%7C-1
+
+%7C0%7C34%7Cfalse%7C1%7C-1%7C1000032%7C1%7C-1%7C1%7Cfalse%7C2018-07-01%200:00:00%7C2018-07-03%200:00:00%7C%7C%7C%7C0%7C--%20All%20--%7Cfalse%7C1%7C-1%7C102%7C0%7C-1%7C0%7C0%7C1%7Ctn:Default%7C
+
+
+http://pe01sp07a/ReportServer/Pages/ReportViewer.aspx?/ReportExpert/GY_Entubadora_Calidad&rs:ClearSession=true&rc:Parameters=false&rc:Toolbar=true&rc:LinkTarget=frameContent&RptParameterSetId=263&RptParameterSet=263%7C3%7C-1%7C0%7C101%7C1%7Ctrue%7C-2%7C1%7C100
+
+%7C1%7Ctrue%7C-3%7C2%7C8%7C0%7Ctrue%7C0%7C0
+
+%7C1%7C-1%7C1%7Cfalse%7C2018-07-01%2000:00:00%7C2018-07-03%2000:00:00%7C%7C%7C%7C0%7C--%20All%20--%7Cfalse%7C0%7C0%7C1%7Ctn:Default%7C
