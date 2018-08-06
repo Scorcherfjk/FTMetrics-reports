@@ -14,14 +14,14 @@
 	}
 
 // function to create dynamic treeview menus
-function createTreeView($parent, $menu) {
-   $html = "";
+function createTreeView($parent, $menu, $n = 0) {  
+    $html = "";
    if (isset($menu['parents'][$parent])) {
       $html .= "
       <ol class='tree'>";
        foreach ($menu['parents'][$parent] as $itemId) {
           if(!isset($menu['parents'][$itemId])) {
-             $html .= "<li><label class='peque' for='subfolder2'><a href='".$menu['items'][$itemId]['link']."'>".$menu['items'][$itemId]['label']."</a></label><input type='checkbox' name='subfolder2'/></li>";
+             $html .= "<li><label class='peque' for='".$menu['items'][$itemId]['id']."'>".$menu['items'][$itemId]['label']."</label><input type='radio' id='".$menu['items'][$itemId]['id']."' name='seleccion' value='".$menu['items'][$itemId]['rptid']."-".$menu['items'][$itemId]['rptrpt']."'/></li>";
           }
           if(isset($menu['parents'][$itemId])) {
              $html .= "<li><label for='subfolder3'>".$menu['items'][$itemId]['label']."</label> <input type='checkbox' name='subfolder3'/>";

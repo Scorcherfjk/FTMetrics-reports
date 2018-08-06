@@ -49,6 +49,10 @@ li input:checked + ol > li:last-child {
         margin: 8px 0 0.063em;
 }
 
-.peque{
+.peque, input[type='radio']{
     background: url(../img/archivo.png) 15px 1px no-repeat;
+    cursor: pointer;
+    display: block;
+    padding-left: 37px;
+    opacity: 1;
 }
