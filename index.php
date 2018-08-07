@@ -32,6 +32,7 @@
                             <?php
                             $option = "SELECT RptParameterSetId as rptid, RptReport as rptrpt, ParentId as parent, RptReportId as id, title as label FROM FTMetrics2.dbo.RptReport ORDER BY ParentId";
                             // $sql = "SELECT id, label, link, parent FROM menus ORDER BY parent, sort, label";
+                        if( isset( $conn ) ) {
                             $optionready = sqlsrv_prepare($conn,$option);
                             sqlsrv_execute($optionready);
                             // Create an array to conatin a list of items and parents
@@ -46,8 +47,14 @@
                                     // Creates list of all items with children
                                     $menus['parents'][$items['parent']][] = $items['id'];
                                 }
-                            // Print all tree view menus 
-                            echo createTreeView(null , $menus);
+                            // Print all tree view menus
+                            echo "<label for='tree'>Select Option</label>";
+                            echo createTreeView(312 , $menus);
+                        }else{
+                            //en caso de la conexion falle
+                            echo "Conexión no se pudo establecer.<br />";
+                            die( "<strong>el error ha sido : </strong>".print_r( sqlsrv_errors(), true));
+                        }
                             ?>
                 </div>
                 <div class="col-4">
