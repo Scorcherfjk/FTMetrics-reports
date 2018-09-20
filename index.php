@@ -30,7 +30,13 @@
             <div class="row">
                 <div class="col-4">
                             <?php
-                            $option = "SELECT RptParameterSetId as rptid, RptReport as rptrpt, ParentId as parent, RptReportId as id, title as label FROM FTMetrics2.dbo.RptReport ORDER BY ParentId";
+                            $option = "SELECT RptParameterSetId as rptid, 
+                                            RptReport as rptrpt, 
+                                            ParentId as parent, 
+                                            RptReportId as id, 
+                                            title as label 
+                                        FROM FTMetrics2.dbo.RptReport 
+                                        ORDER BY ParentId";
                             // $sql = "SELECT id, label, link, parent FROM menus ORDER BY parent, sort, label";
                         if( isset( $conn ) ) {
                             $optionready = sqlsrv_prepare($conn,$option);
